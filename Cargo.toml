@@ -1,0 +1,9 @@
+[package]
+name = "pi_print_any"
+version = "0.1.0"
+authors = ["wzjsun <530739162@qq.com>"]
+edition = "2018"
+description = "print any value without trait bounds using specialization (Rust nightly channel)"
+repository = "https://github.com/GaiaWorld/pi_print_any.git"
+license = "MIT OR Apache-2.0"
+keywords = ["pi", "print", "debug"]
