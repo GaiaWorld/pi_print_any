@@ -1,6 +1,6 @@
 [package]
 name = "pi_print_any"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["wzjsun <530739162@qq.com>"]
 edition = "2018"
 description = "print any value without trait bounds using specialization (Rust nightly channel)"
