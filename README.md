@@ -9,7 +9,7 @@ output value for type of impl Debug, output type name for unimplDebug.
 	struct A(usize);
 	struct B(usize);
 	fn main() {
-		println!("{:?}", A(1)); // output: A(1)
-		println!("{:?}", B(1)); // output: `pi_print_any::B`
+		println_any!("{:?}", A(1)); // output: A(1)
+		println_any!("{:?}", B(1)); // output: `pi_print_any::B`
 	}
 ```
