@@ -39,7 +39,7 @@ use std::any::type_name;
 #[macro_export]
 macro_rules! println_any {
     ($message:expr, $($value:expr),*) => {{
-        out_any!(println, $message, $($value),*)
+        $crate::out_any!(println, $message, $($value),*)
     }};
 }
 
@@ -60,7 +60,7 @@ macro_rules! println_any {
 #[macro_export]
 macro_rules! print_any {
     ($message:expr, $($value:expr),*) => {{
-        out_any!(print, $message, $($value),*)
+        $crate::out_any!(print, $message, $($value),*)
     }};
 }
 
